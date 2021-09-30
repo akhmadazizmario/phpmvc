@@ -1,4 +1,9 @@
 <div class="container">
+    <div class="row-mt-3">
+        <div class="colmd-6">
+            <a href="http://localhost/phpmvc/barang/tambah/" class="btn btn-primary">Tambah Data Barang</a>
+        </div>
+    </div>
  <table class="table">
  <thead>
  <tr>
