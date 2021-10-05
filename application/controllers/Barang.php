@@ -34,7 +34,6 @@ class Barang extends CI_Controller
             redirect('http://localhost/phpmvc/barang/');
         }
     }
-
     public function hapus($id)
     {
         $this->Barang_model->hapusDataBarang($id);

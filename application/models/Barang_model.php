@@ -17,7 +17,6 @@ class Barang_model extends CI_Model
       );
       $this->db->insert('barang', $data);
    }
-
    public function hapusDataBarang($id)
    {
       $this->db->where('id_barang', $id);

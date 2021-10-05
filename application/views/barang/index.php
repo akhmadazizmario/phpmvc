@@ -33,7 +33,6 @@
                         <a href="http://localhost/phpmvc/barang/ubah/<?= $brg['id_barang']; ?>" class="btn btn-success">Ubah</a>
                         <a href="http://localhost/phpmvc/barang/hapus/<?= $brg['id_barang']; ?>" class="btn btn-danger" onclick="return confirm ('Yakin akan dihapus?');">Hapus</a>
                     </td>
-
             </tr>
         <?php endforeach; ?>
 
