@@ -13,8 +13,8 @@ onymous">
     <title><?php echo $judul; ?></title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body background="https://hdqwalls.com/download/tokyo-ghoul-anime-hd-1360x768.jpg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container">
             <a class="navbar-brand" href="#">Toko Online</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" databs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" arialabel="Toggle navigation">

@@ -7,29 +7,29 @@
     <?php endif; ?>
     <?php if (empty($barang)) : ?>
         <div class="alert alert-danger" role="alert">
-            Data Barang Ditak ditemukan...
+            Data Barang tak ditemukan...
         </div>
     <?php endif; ?>
 
 
     <div class="row-mt-3">
         <div class="colmd-6">
-            <br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
+            <br><br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
         </div>
     </div>
-    <br><br>
+    <br>
     <div class="row mt-3">
         <div class="col-md-6">
             <form action="" method="post">
                 <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Cari Data Barang..." name="keyword">
+                    <input type="text" class="form-control " placeholder="Cari Data Barang..." name="keyword">
                     <button class="btn btn-info" type="submit">Cari</button>
                 </div>
         </div>
     </div>
     </form><br>
-    <table class="table">
-        <thead>
+    <table class="table" bgcolor="cyan">
+        <thead bgcolor="yellow">
             <tr>
                 <th>
                 <th scope="col">Kode Barang</th>
