@@ -14,7 +14,7 @@
 
     <div class="row-mt-3">
         <div class="colmd-6">
-            <br><br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
+            <br><br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-danger">Tambah Data Barang</a>
         </div>
     </div>
     <br>
@@ -22,8 +22,8 @@
         <div class="col-md-6">
             <form action="" method="post">
                 <div class="input-group">
-                    <input type="text" class="form-control " placeholder="Cari Data Barang..." name="keyword">
-                    <button class="btn btn-info" type="submit">Cari</button>
+                    <input type="text" class="form-control bg-light" placeholder="Cari Data Barang... " name="keyword">
+                    <button class="btn btn-danger" type="submit">Cari</button>
                 </div>
         </div>
     </div>
