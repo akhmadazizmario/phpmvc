@@ -10,8 +10,6 @@
             Data Barang tak ditemukan...
         </div>
     <?php endif; ?>
-
-
     <div class="row-mt-3">
         <div class="colmd-6">
             <br><br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
@@ -33,7 +31,7 @@
         <div class="card-header py-3 bg-dark">
             <h6 class="m-0 font-weight-bold text-white">Data Barang</h6>
         </div>
-        <div class="card-body">
+        <div class="card-body bg-info">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead bgcolor="yellow">
@@ -45,7 +43,7 @@
                             <th scope="col">action</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody bgcolor="white">
                         <tr>
                             <?php foreach ($barang as $brg) : ?>
                                 <td><?= $brg['id_barang']; ?></td>

@@ -6,7 +6,7 @@
          <div class="sidebar-brand-icon rotate-n-15">
              <i class='fab fa-facebook-square' style='font-size:48px;color:white'></i>
          </div>
-         <div class="sidebar-brand-text mx-3">Hello :) <sup></sup></div>
+         <div class="sidebar-brand-text mx-3">Admin <sup></sup></div>
      </a>
 
      <!-- Divider -->
@@ -15,7 +15,7 @@
      <!-- Nav Item - Dashboard -->
      <li class="nav-item active">
          <a class="nav-link" href="http://localhost/phpmvc/">
-             <i class="fas fa-fw fa-tachometer-alt"></i>
+             <i class="fas fa-fw fa-tachometer-alt" style='font-size:20px;'></i>
              <span>Dashboard</span></a>
      </li>
 
@@ -29,8 +29,8 @@
 
      <!-- Nav Item - Pages Collapse Menu -->
      <li class="nav-item">
-         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-             <i class="fas fa-fw fa-cog"></i>
+         <a class="nav-link collapsed text-warning" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+             <i class="fas fa-fw fa-cog" style='font-size:20px;color:orange'></i>
              <span>Components</span>
          </a>
          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -44,8 +44,8 @@
 
      <!-- Nav Item - Utilities Collapse Menu -->
      <li class="nav-item">
-         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-             <i class="fas fa-fw fa-wrench"></i>
+         <a class="nav-link collapsed text-warning" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+             <i class="fas fa-fw fa-wrench" style='font-size:20px;color:orange'></i>
              <span>Utilities</span>
          </a>
          <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
@@ -69,8 +69,8 @@
 
      <!-- Nav Item - Pages Collapse Menu -->
      <li class="nav-item">
-         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-             <i class="fas fa-fw fa-folder"></i>
+         <a class="nav-link collapsed text-warning" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+             <i class="fas fa-fw fa-folder" style='font-size:20px;color:orange'></i>
              <span>Pages</span>
          </a>
          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
@@ -89,15 +89,15 @@
 
      <!-- Nav Item - Charts -->
      <li class="nav-item">
-         <a class="nav-link" href="charts.html">
-             <i class="fas fa-fw fa-chart-area"></i>
+         <a class="nav-link text-warning" href="charts.html">
+             <i class="fas fa-fw fa-chart-area" style='font-size:20px;color:orange'></i>
              <span>Charts</span></a>
      </li>
 
      <!-- Nav Item - Tables -->
      <li class="nav-item">
-         <a class="nav-link" href="http://localhost/phpmvc/barang/">
-             <i class="fas fa-fw fa-table"></i>
+         <a class="nav-link text-warning" href="http://localhost/phpmvc/barang/">
+             <i class="fas fa-fw fa-table" style='font-size:20px;color:orange'></i>
              <span>Data barang</span></a>
      </li>
 

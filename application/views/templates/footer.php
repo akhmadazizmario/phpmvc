@@ -1,12 +1,3 @@
-<!-- Footer -->
-<footer class="sticky-footer bg-light">
-    <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-        </div>
-    </div>
-</footer>
-<!-- End of Footer -->
-
 </div>
 <!-- End of Content Wrapper -->
 
@@ -55,5 +46,13 @@
 <script src="http://localhost/phpmvc/assets/js/demo/chart-pie-demo.js"></script>
 
 </body>
+<!----footer-------->
+<footer>
+    <div>
+        <center>
+            <i class="fa fa-copyright" style='font-size:20px;color:black'></i>copyright by aziz mario
+            <!------END footer----->
+    </div>
+</footer>
 
 </html>
