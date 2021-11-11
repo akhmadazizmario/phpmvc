@@ -1,4 +1,6 @@
 <div class="container">
+    <h1 class="h2"><?= $judul; ?></h1>
+    <hr>
     <?php if ($this->session->flashdata('flash')) : ?>
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             <strong>Data Barang</strong> <?= $this->session->flashdata('flash'); ?>
@@ -12,7 +14,7 @@
     <?php endif; ?>
     <div class="row-mt-3">
         <div class="colmd-6">
-            <br><br><a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
+            <a href="http://localhost/phpmvc/barang/tambah" class="btn btn-success">Tambah Data Barang</a>
         </div>
     </div>
     <div class="row mt-3">
