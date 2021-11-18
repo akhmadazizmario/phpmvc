@@ -167,7 +167,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-black-600 small text-white">AZIZ MARIO</span>
+                                <span class="mr-2 d-none d-lg-inline text-black-600 small text-white">admin</span>
                                 <img class="img-profile rounded-circle" src="https://pbs.twimg.com/profile_images/415455963278106625/pLe3KVEf_400x400.jpeg">
                             </a>
                             <!-- Dropdown - User Information -->

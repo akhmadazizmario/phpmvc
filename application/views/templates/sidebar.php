@@ -14,7 +14,7 @@
 
      <!-- Nav Item - Dashboard -->
      <li class="nav-item active">
-         <a class="nav-link" href="http://localhost/phpmvc/">
+         <a class="nav-link" href="http://localhost/phpmvc/homepage/">
              <i class="fas fa-fw fa-tachometer-alt" style='font-size:20px;'></i>
              <span>Dashboard</span></a>
      </li>
