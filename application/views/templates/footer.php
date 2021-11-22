@@ -44,7 +44,14 @@
 <!-- Page level custom scripts -->
 <script src="http://localhost/phpmvc/assets/js/demo/chart-area-demo.js"></script>
 <script src="http://localhost/phpmvc/assets/js/demo/chart-pie-demo.js"></script>
-
+<!--- mengubah search file di ubahprofil jadi file gambar -->
+<script>
+    $('.custom-file-input').on('change', function() {
+        let fileName = $(this).val().split('//').pop();
+        $(this).next('.custom-file-label').addClass('selected').html(fileName);
+    });
+</script>
+<!-- Closee file gamber -->
 </body>
 <!----footer-------->
 <footer>

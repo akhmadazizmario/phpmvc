@@ -11,6 +11,7 @@ class Barang extends CI_Controller
     public function index()
     {
         $data['judul'] = 'Halaman Barang';
+        $data['user'] = $this->Barang_model->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
         // Pagination
         $this->load->library('pagination');
         // Config 
@@ -45,8 +46,8 @@ class Barang extends CI_Controller
             $data['barang'] = $this->Barang_model->cariDataBarang();
         }
         $this->load->view('templates/header', $data);
-        $this->load->view('templates/sidebar');
-        $this->load->view('templates/topbar');
+        $this->load->view('templates/sidebar', $data);
+        $this->load->view('templates/topbar', $data);
         $this->load->view('barang/index');
         $this->load->view('templates/footer');
     }

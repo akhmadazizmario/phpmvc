@@ -19,6 +19,7 @@
                             <div class="col-lg">
                                 <div class="p-5">
                                     <div class="text-center">
+                                        <?= $this->session->flashdata('message'); ?>
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
                                     <form class="user" method="post" action=<?= base_url('auth'); ?>>

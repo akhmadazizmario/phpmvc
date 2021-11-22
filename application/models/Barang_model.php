@@ -1,6 +1,10 @@
 <?php
 class Barang_model extends CI_Model
 {
+   public function get_where($table, $where)
+   {
+      return $this->db->get_where($table, $where);
+   }
 
    public function getAllBarang()
    {
