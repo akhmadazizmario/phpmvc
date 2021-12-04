@@ -14,7 +14,9 @@
                 <div class="card-body">
                     <h5 class="card-title"><?= $user['name']; ?></h5>
                     <p class="card-text"><?= $user['email']; ?></p>
-                    <p class="card-text"><small class="text-muted">Jadimember sejak: <br><b><?= date('d F Y', $user['date_create']); ?></b></small></p>
+                    <p class="card-text"><small class="text-muted">Jadi
+                            member sejak: <br><b><?= date('d F Y', $user['date_create']);
+                                                    ?></b></small></p>
                 </div>
                 <div class="btn btn-info ml-3 my-3">
                     <a href="<?= base_url('user/ubahprofil'); ?>" class="text text-white"><i class="fas fa-user-edit"></i> Ubah Profil</a>
